@@ -39,22 +39,30 @@ body{
     text-align: center;
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .primary-link{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px;
-    color: white;
     text-align: center;
-    padding: 1rem 7rem;
+    background-color: var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
+    color: white;
+    font-weight: 580;
+    text-align: center;
+
    }
    
 .secondary-link{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var
-    (--primary-color);
     text-align: center;
-    padding: 1rem 7rem;
+    color: var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 2px; 
+    text-align: center;
+   }
+
+.link-center{
+    text-align: center;
    }
 
 /* list */
@@ -81,7 +89,9 @@ body{
 }
    
    .navigation .nav-brand {
-    font-align: right;
+    font-size: x-large;
+	font-weight: 600;
+	margin: 0rem 2rem;
    }
    
    .navigation .nav-pills {
@@ -103,7 +113,7 @@ body{
   }
   
 .hero .hero-img {
-   max-width: 350px;
+   max-width: 300px;
    display: block;
    margin: auto;
    }
@@ -138,7 +148,8 @@ body{
 	text-align: center;
 }
 .off-white{
-	background-color: #111827;
+    background-color: #111827;
+    color: white;
 }
 .section-skills{
     text-align: center;
@@ -150,6 +161,9 @@ body{
     border-radius: 0.5rem;
     color: white;
     border: 1px solid green ;
+    margin: 0.5rem;
+    line-height: 2rem;
+    padding: 2rem;
 }
 
 .quiz1{
@@ -168,6 +182,27 @@ body{
     padding: 0rem 0.5rem;
 }
 
+/* b)unordered inline list */
+
+.list-unordered{
+	list-style: none;
+    padding-inline-start: 0px;
+    display: inline;
+	text-align: center;
+    padding-inline-start: 0px;
+    border: 0.2rem white;
+}
+
+.non-bullet{
+ list-style: none;
+}
+
+.list-item-inline {
+ display: inline;
+ padding: 0rem 0.5rem;
+ list-style: none;
+}
+
 
 /** footer **/
 
@@ -175,12 +210,17 @@ body{
     background-color: var(--primary-color);
     color: white;
     padding: 2rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
 }
 .footer .link {
-    color: rosybrown;
-  
+    color: white;
+    font-weight: bold;
 }
-
 
 .footer .header{
     font-weight: bold;
