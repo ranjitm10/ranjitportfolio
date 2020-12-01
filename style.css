@@ -209,7 +209,7 @@ body{
 .footer {
     background-color: var(--primary-color);
     color: white;
-    padding: 2rem 1rem;
+    padding: 1rem 0rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     margin: 1rem 0rem 0rem 0rem;
